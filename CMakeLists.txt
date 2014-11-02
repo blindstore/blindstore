@@ -1,5 +1,6 @@
 # CMake minimun version required to compile
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+enable_testing()
 
 # Prevents cmake from following symbolic links using GLOB
 cmake_policy(SET CMP0009 NEW)
