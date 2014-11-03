@@ -5,6 +5,7 @@ It provides an online lookup service which returns the correct answer without ev
 
 This is an ongoing effort to implement Blindstore in C++ based on the V-DGHV scheme of somewhat homomorphic encryption presented in [1].
 It is not yet finished.
+For the core cryptography implementation, see [libshe](https://github.com/blindstore/libshe).
 For a working proof of concept of the Blindstore concept, please see the [blindstore-old-scarab repository](https://github.com/blindstore/blindstore-old-scarab).
 The implementation there is based on another encryption scheme.
 
