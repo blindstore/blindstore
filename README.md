@@ -1,13 +1,14 @@
 ## Introduction to Blindstore
 
 [Blindstore](https://blindstore.github.io/) is a private information retrieval data store.
-It provides an online lookup service which returns the correct answer without ever knowing what the question was.
+It provides an online lookup service which returns the correct answer without ever knowing what the question was. 
 
-This is an ongoing effort to implement Blindstore in C++ based on the V-DGHV scheme of somewhat homomorphic encryption presented in [1].
-It is not yet finished.
-For the core cryptography implementation, see [libshe](https://github.com/blindstore/libshe).
-For a working proof of concept of the Blindstore concept, please see the [blindstore-old-scarab repository](https://github.com/blindstore/blindstore-old-scarab).
-The implementation there is based on another encryption scheme.
+**Currently this repo is a stub**.
+
+* For the core cryptography implementation, see [libshe](https://github.com/blindstore/libshe).
+* For a working proof of concept of the Blindstore concept, please see the [blindstore-old-scarab repository](https://github.com/blindstore/blindstore-old-scarab). The implementation there is based on another encryption scheme.
+
+This repo will contain an implementation of Blindstore in C++ based on the V-DGHV scheme of somewhat homomorphic encryption ([libshe](https://github.com/blindstore/libshe)) presented in [1].
 
 ## Disclaimer
 
